@@ -2,5 +2,9 @@ let par = "Lorem ipsum dolor sit amet consectetur adipiscing elit Curabitur eget
 let counts = {};
 
 // your code here
-
+for(var i=0; i<par.length; i++){
+    par.forEach (item, index) => {
+        if(par[i].includes("") )
+    }
+}
 console.log(counts);
