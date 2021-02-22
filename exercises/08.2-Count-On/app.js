@@ -4,9 +4,13 @@ let hello = [];
 for(let index = 0; index < myArray.length; index++){
    // let element = myArray[index];
     // MAGIC HAPPENS HERE
-    
-    if (myArray[index] == typeof Objeto ){
-      console.log (hello.push(myArray[index]));
+    // tomar elemento del arreglo y obtener tipo de dato
+    // compararlo a un elemento tipo objeto
+    let objeto = {};
+    if (typeof (myArray[index]) == typeof(objeto) ){
+      hello.push(myArray[index]);
     }
+   
 }
+console.log(hello);
 

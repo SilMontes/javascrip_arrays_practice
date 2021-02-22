@@ -1,3 +1,4 @@
+let numbers = [2,13,34,5];
 function sumTheElements(theArray){
 	
 	var total =0;
@@ -9,4 +10,4 @@ function sumTheElements(theArray){
     }
    return total;
 }
- sumTheElements([2,13,34,5]);
+sumTheElements(numbers);
