@@ -3,13 +3,12 @@ var people = ['juan','ana','michelle','daniella','stefany','lucy','barak'];
 function deletePerson(personName){
     let peopleNames=[];
     //your code here
-    for(i=0; i<people.length; i++){
-        if(people[i] == personName){
-          people.splice(people[i], 0)
+    for( var i=0; i<people.length; i++){
+        if(people[i] !== personName){
+         peopleNames.push(people[i]) 
+          
         }
-         else {
-             peopleNames.push(people[i])
-         }
+         
     }
     return peopleNames;
    
