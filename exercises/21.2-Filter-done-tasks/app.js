@@ -10,3 +10,7 @@ let tasks = [
 ];
 
 //your code here
+let update = tasks.filter(function(homework){
+  return homework.done==true;
+});
+console.log(update)
