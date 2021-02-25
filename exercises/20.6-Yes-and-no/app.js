@@ -4,10 +4,11 @@ let theBools = [0,1,0,0,1,1,1,0,0,1,0,1,1,0,0,0,0,0,0,0,0,1,0,0,0,0,1];
 
 let result = theBools.map(function(number){
     if(number == 0){
-     return  result.push('woko');
+    return  number = 'woko';
     }
     else{
-     return result.push('wiki');
+   return number= 'wiki';
     }
-   console.log(result);
+   
 });
+console.log(result);
