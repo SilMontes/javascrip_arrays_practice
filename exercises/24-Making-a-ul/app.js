@@ -11,10 +11,16 @@ let allColors = [
 function generateLI(color){
     // your code here
     
+
+
 }
 
 function filterColors(color){
-	// your code here
+    // your code here
+    trueColors= allColors.filter(function(objetos){
+   return objetos.sexy===true;
+});
+   return trueColors;
 }
 
 function generateHTMLFromArray(array){
