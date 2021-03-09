@@ -10,17 +10,20 @@ let allColors = [
 
 function generateLI(color){
     // your code here
-    
+    return "<li>" + color.label+"</li>"
 
 
 }
 
 function filterColors(color){
     // your code here
-    trueColors= allColors.filter(function(objetos){
-   return objetos.sexy===true;
-});
-   return trueColors;
+//     trueColors= allColors.filter(function(objetos){
+//    return objetos.sexy===true;
+// });
+//    return trueColors;
+if(color.sexy){
+        return color.label
+    }
 }
 
 function generateHTMLFromArray(array){
